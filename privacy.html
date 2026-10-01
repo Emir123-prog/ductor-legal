@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Ductor Assistant</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 48px 20px 80px; max-width: 42rem;
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #16181d; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e8e9ec; background: #0e0f12; } }
+  h1 { font-size: 2rem; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  .sub { color: #6b7280; margin: 0 0 36px; }
+  ul { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  code { font-size: .92em; background: #0001; padding: 1px 5px; border-radius: 4px; }
+  @media (prefers-color-scheme: dark) { code { background: #fff1; } }
+  a { color: inherit; text-underline-offset: 3px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #0002; color: #6b7280; font-size: .92rem; }
+  @media (prefers-color-scheme: dark) { footer { border-top-color: #fff2; } }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="sub">Ductor Assistant · last updated 1 October 2026</p>
+
+<p>Ductor Assistant is a private, single-user application. The only person who
+can authorise it, and the only person whose data it ever touches, is its
+operator and owner.</p>
+
+<h2>What data the app accesses</h2>
+<p>With the operator's explicit Google consent, the app requests access to:</p>
+<ul>
+  <li><strong>Google Drive</strong> — to read and write the operator's own files.</li>
+  <li><strong>Google Calendar</strong> — to read and create the operator's own events.</li>
+  <li><strong>Google Sheets</strong> — to read and update the operator's own spreadsheets.</li>
+  <li><strong>Google Tasks</strong> — to read and update the operator's own task lists.</li>
+  <li><strong>YouTube (upload only)</strong> — to upload videos to the operator's own channel.
+      This scope grants no ability to read or modify anyone else's content.</li>
+</ul>
+
+<h2>Where the data goes</h2>
+<p>Nowhere else. The app runs on a server controlled by the operator. Data
+fetched from Google is used to answer the operator's own requests and is not
+sold, shared, published, or transmitted to any third party. There is no
+analytics, no advertising, and no tracking.</p>
+
+<h2>What is stored</h2>
+<p>An OAuth refresh token is stored on the operator's server in a file readable
+only by the account that runs the app (<code>chmod 600</code>). It exists so the
+app does not have to ask for sign-in on every request. No Google passwords are
+ever seen or stored by the app.</p>
+
+<h2>Retention</h2>
+<p>Content retrieved from Google is held only as long as it is needed to carry
+out the request that asked for it. Nothing is archived for later analysis.</p>
+
+<h2>How to revoke access</h2>
+<p>Access can be withdrawn at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+Revoking immediately invalidates the stored token, and the app loses all access.</p>
+
+<h2>Limited Use</h2>
+<p>Use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Contact</h2>
+<p>sautbaevemir@gmail.com</p>
+
+<footer><a href="index.html">Back</a></footer>
+</body>
+</html>
